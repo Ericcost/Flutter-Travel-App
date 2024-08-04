@@ -2,6 +2,8 @@ import 'package:hive/hive.dart';
 
 import '../../domain/entities/trip.dart';
 
+part 'trip_model.g.dart';
+
 @HiveType(typeId: 0)
 
 class TripModel {
